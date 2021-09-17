@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(#00d9fa 0%, #f700ff 100%);
+    opacity: 100%;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: inherit;
+}
+#campus life {
+    position: absolute;
+    font-size: 30px;
+    overflow: hidden;
+    height: 100px;
+    color: #00ffa6;
+    opacity: 0.5;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: white;
+    display: table;
+    height: 20%;
+    width: 100%;
+    z-index: ;
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 30px;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    display: inline;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:10;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#map iframe {
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+#footer {
+    height: 20px;
+    background-color: white;
+}
+
+input {
+    background: grey
+}
+
+.announcement {
+    background-color: #337ab7;
+    width: 100%;
+    height: 30px;
+}
+
+#marqueeStyle {
+    width: 100%;
+    direction: right;
+    height: 100px;
+    color: beige;
+    font-size: 120%;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.travel_mainDiv hr {
+    width: 100%;
+}
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 20px;
+}
+
+
+#achievementsID {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
